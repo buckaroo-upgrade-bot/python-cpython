@@ -1,4 +1,4 @@
-manifest = "6422b040eecd3ecd4961544b9030b0c30ff7367fa07d294ff1fc53493644ac8d"
+manifest = "bd95d9af9275a762570cefe7523eacf59eda9555db30e123b37052a6cb40ecdb"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/bzip2"
