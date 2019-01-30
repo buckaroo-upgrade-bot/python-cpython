@@ -1,0 +1,45 @@
+manifest = "6422b040eecd3ecd4961544b9030b0c30ff7367fa07d294ff1fc53493644ac8d"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/bzip2"
+target = "//:bzip2"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-dl"
+target = "//:dl"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-util"
+target = "//:util"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/madler-zlib"
+target = "//:zlib"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/readline"
+target = "//:readline"
+
+[lock."github.com/buckaroo-pm/bzip2"]
+versions = [ "branch=master" ]
+revision = "3e571fbb2b5d21cabf8e5e4cd9283bb53047c69c"
+
+[lock."github.com/buckaroo-pm/host-dl"]
+versions = [ "branch=master" ]
+revision = "69a239353756c2ef5c97e5a56a0964fb7ac6eb49"
+
+[lock."github.com/buckaroo-pm/host-util"]
+versions = [ "branch=master" ]
+revision = "ef9d7082d55023090b2645678ba2fe14c25101e3"
+
+[lock."github.com/buckaroo-pm/madler-zlib"]
+versions = [ "branch=master" ]
+revision = "1f7335c126705550b9cd4e91d2d34835c49bc28e"
+
+[lock."github.com/buckaroo-pm/pkg-config-ncurses"]
+versions = [ "branch=master" ]
+revision = "02958fa2d2be17de4a0c7c1f5fecbadbf46d05ca"
+
+[lock."github.com/buckaroo-pm/readline"]
+versions = [ "branch=master" ]
+revision = "87cc8974f8b22d349c9f6729e96995e27ac5884c"

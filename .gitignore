@@ -115,3 +115,10 @@ Tools/ssl/win32
 .vscode/
 gmon.out
 .mypy_cache/
+
+.buckd
+buck-out
+.buckconfig.local
+.buckconfig.d
+buckaroo
+buckaroo_macros.bzl

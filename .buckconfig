@@ -1,0 +1,27 @@
+[project]
+  ignore = .git
+
+[parser]
+  default_build_file_syntax = SKYLARK
+
+[cxx]
+  should_remap_host_platform = true
+  default_reexport_all_header_dependencies = false
+
+[cxx#linux-x86_64]
+  should_remap_host_platform = true
+  default_reexport_all_header_dependencies = false
+  cflags = \
+    -DPy_BUILD_CORE \
+    -D_Py_HAVE_ZLIB=1 \
+    -DHAVE_STDDEF_H=1 \
+    -DPLATFORM="\"linux\"" \
+    -DGITVERSION="\"fd512d7645\"" \
+    -DGITTAG="\"heads/master\"" \
+    -DGITBRANCH="\"master\"" \
+    -DVERSION="\"3.8\"" \
+    -DVPATH="\"\"" \
+    -DPYTHONPATH="\"\"" \
+    -DPREFIX="\"/usr/local\"" \
+    -DEXEC_PREFIX="\"/usr/local\"" \
+    -DSOABI="\"cpython-38m-x86_64-linux-gnu\""

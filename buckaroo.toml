@@ -1,0 +1,20 @@
+[[dependency]]
+package = "github.com/buckaroo-pm/bzip2"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-dl"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/host-util"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/madler-zlib"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/readline"
+version = "branch=master"
+
